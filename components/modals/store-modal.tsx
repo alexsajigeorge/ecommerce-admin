@@ -41,7 +41,7 @@ export const StoreModal = () => {
       toast.success("Store created.", {
         style: {
           borderRadius: "10px",
-          background: "#333",
+          background: "#222",
           color: "#fff",
         },
       });
@@ -49,7 +49,7 @@ export const StoreModal = () => {
       toast.error("Something went wrong", {
         style: {
           borderRadius: "10px",
-          background: "#333",
+          background: "#222",
           color: "#fff",
         },
       });
