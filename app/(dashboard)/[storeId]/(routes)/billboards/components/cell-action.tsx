@@ -14,10 +14,9 @@ import {
   DropdownMenuLabel, 
   DropdownMenuTrigger
 } from "@/components/ui/dropdown-menu";
-
+import { AlertModal } from "@/components/modals/alert-modal";
 
 import { BillboardColumn } from "./columns";
-import { AlertModal } from "@/components/modals/alert-model";
 
 interface CellActionProps {
   data: BillboardColumn;
@@ -29,7 +28,7 @@ export const CellAction: React.FC<CellActionProps> = ({
   const router = useRouter();
   const params = useParams();
   const [open, setOpen] = useState(false);
-  const [loading, setLoading] = useState(false     );
+  const [loading, setLoading] = useState(false);
 
   const onConfirm = async () => {
     try {

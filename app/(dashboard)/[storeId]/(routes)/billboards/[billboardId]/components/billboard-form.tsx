@@ -22,8 +22,8 @@ import {
 } from "@/components/ui/form"
 import { Separator } from "@/components/ui/separator"
 import { Heading } from "@/components/ui/heading"
+import { AlertModal } from "@/components/modals/alert-modal"
 import ImageUpload from "@/components/ui/image-upload"
-import { AlertModal } from "@/components/modals/alert-model"
 
 const formSchema = z.object({
   label: z.string().min(1),
